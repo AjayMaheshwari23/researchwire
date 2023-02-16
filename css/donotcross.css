@@ -1,0 +1,40 @@
+.divider {
+    display: flex;
+  }
+  .divider:before, .divider:after {
+    content: "";
+    flex: 1;
+  }
+  
+  .gradient {
+    align-items: stretch;
+    margin: 1em 0;
+    height: 2em;
+    line-height: 2em;
+    color: #d8e1ea;
+    background: black;
+  }
+  .gradient:before {
+    background: linear-gradient(to right, #d8e1ea, black);
+  }
+  .gradient:after {
+    background: linear-gradient(to left, #d8e1ea, black);
+  }
+  
+  .donotcross {
+    overflow: hidden;
+    width: 91%;
+    margin: auto;
+    align-items: center;
+    /* background: #ffd500; */
+ background:#b9c2cc;
+    color: black;
+    height: 2em;
+    line-height: 2em;
+  }
+  .donotcross:before, .donotcross:after {
+    background: white;
+    padding: 50px 0;
+    height: 0;
+    transform: rotate(45deg);
+  }
