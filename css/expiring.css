@@ -2,6 +2,25 @@
     border-radius: 10px !important;
 }
 
+
+/* .wrap2 {
+    text-align:center;
+    margin:16px auto;
+ }
+
+ .resp {
+    display:inline-block;
+    text-align:left;
+    width:22%;
+    margin-right:2%;
+ }
+ 
+ .resp.fixed {
+    width:100px;
+    margin-right:11px;
+ }
+  */
+
 .border-info {
     border-left: 5px solid #0dcaf0 !important;
 }
