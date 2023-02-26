@@ -1,0 +1,149 @@
+.carousel-item img {
+    width: 100%;
+    height: 630px;
+}
+
+.maillogo {
+    display: none;
+}
+
+.mail > a {
+    color: #ffffff !important;
+}
+
+#footerlogo img {
+    margin-left: 20px;
+    border: 1px solid #b2b3b5;
+    box-shadow: 2px 2px 5px #cdced1;
+}
+
+/* mobile potrait 375 px to 667px mobile minipotrait 375px to 504px */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .carousel-item img {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .row > .mail {
+        order: 3;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fa-regular, .fa-envelope {
+        display: none !important;
+    }
+
+    .mail > a {
+        color: #ffffff !important;
+        margin: 20px !important;
+    }
+
+    .maillogo {
+        display: inline-block;
+        width: 25px;
+        height: 20px;
+        border: 1px solid black;
+        z-index: 10;
+    }
+
+    .images {
+        order: 1;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 5px 5px 5px;
+    }
+
+    .images section {
+        align-items: center;
+    }
+
+    #footerlogo {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    #footerlogo img {
+        margin-left: 5px !important;
+        border: 1px solid #b2b3b5 !important;
+        box-shadow: none;
+    }
+
+    .locations {
+        order: 2;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .mb-5 {
+        margin-bottom: 0px !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .row > .mail {
+        order: 3;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fa-regular, .fa-envelope {
+        display: none !important;
+    }
+
+    .mail > a {
+        color: #ffffff !important;
+        margin: 20px !important;
+    }
+
+    .maillogo {
+        display: inline-block;
+        width: 25px;
+        height: 20px;
+        border: 1px solid black;
+        z-index: 10;
+    }
+
+    .images {
+        order: 1;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 5px 5px 5px;
+    }
+
+    .images section {
+        align-items: center;
+    }
+
+    #footerlogo {
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+
+    #footerlogo img {
+        margin-left: 20px;
+        border: 1px solid #b2b3b5;
+        box-shadow: 2px 2px 5px #cdced1;
+    }
+
+    .locations {
+        order: 2;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .mb-5 {
+        margin-bottom: 0px !important;
+    }
+}
