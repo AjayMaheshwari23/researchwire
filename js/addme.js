@@ -1,3 +1,7 @@
+Chart.defaults.backgroundColor = '#ffffff';
+Chart.defaults.borderColor = '#ffffff';
+Chart.defaults.color = '#ffffff';
+
 
 const datavaluesO = [8513, 4743, 4580, 3056, 3046, 3038, 3023, 2725, 8513, 4743, 4580, 3056, 3046, 3038, 3023, 2725, 8513, 4743, 4580, 3056, 3046, 3038, 3023, 2725, 8513, 4743, 4580, 3056, 3046, 3038, 3023, 2725, 8513, 4743, 4580, 3056, 3046, 3038, 3023, 2725, 8513, 4743, 4580, 3056, 3046, 3038, 3023, 2725, 8513, 4743, 4580, 3056, 3046, 3038, 3023, 2725, 8513, 4743, 4580, 3056, 3046, 3038, 3023, 2725, 8513, 4743, 4580, 3056, 3046, 3038, 3023, 2725,];
 const datalabelsO =
@@ -42,7 +46,7 @@ const chartthis = new Chart(document.getElementById("line-chart"), {
         datasets: [{
             data: datavalues,
             label: "Interesting Patents Count",
-            borderColor: "#3e95cd",
+            borderColor: "#ffffff",
             fill: false
         }
         ]

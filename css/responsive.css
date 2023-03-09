@@ -25,6 +25,45 @@
         height: 500px;
     }
     
+    
+
+
+/* @me */
+.googlex{
+  width: 63vw;
+  display: block;
+}
+
+.blog-slider{
+    height: 20vh!important;
+}
+
+.blog-slider__text{
+
+    font-size: 10px;
+}
+.blog-slider__img{
+    height: 33vh!important;
+    width: 60vw!important;
+}
+
+.blog-slider__button{
+    width: 50vw!important;
+    height: 6vh!important;
+}
+
+
+
+embed{
+    width:40vw;
+}
+
+
+.btn-group a{
+    font-size: 12px!important;
+    width: 35vw!important;
+}
+
     .row > .mail {
         order: 3;
         width: 100%;
