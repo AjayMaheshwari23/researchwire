@@ -144,6 +144,8 @@ a:hover {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
+  /* width: auto; */
+  height: auto;
   z-index: -100;
 }
 
@@ -156,7 +158,7 @@ a:hover {
 }
 
 .overlay {
-  background: linear-gradient( #000, transparent 20%);
+  /* background: linear-gradient( #000, transparent 20%); */
   position: absolute;
   top: 0;
   right: 0;
@@ -272,7 +274,7 @@ strong {
 .navbar-nav .nav-item.active .nav-link,
 .nav-link:focus, 
 .nav-link:hover {
-  color: var(--dark-color);
+  color: var(--white-color);
 }
 
 .nav-link:focus {
