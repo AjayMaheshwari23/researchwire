@@ -84,9 +84,35 @@
     .mb-5 {
         margin-bottom: 0px !important;
     }
+
+    .blog-slider__img {
+        width: 80% !important;
+        height: 200px !important;
+    }
+
+    .blog-slider__pagination {
+        top: 135px !important;
+    }
+
+    .blog-slider__content {
+        margin-top: -60px !important;
+    }
+
+    .blog-slider__title {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .blog-slider__text {
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    #maindiffrot {
+        transform: rotate(0deg) !important;
+    }
+
     .row > .mail {
         order: 3;
         width: 100%;
@@ -145,5 +171,10 @@
 
     .mb-5 {
         margin-bottom: 0px !important;
+    }
+
+    #newscards2 {
+        height: 20.5vh !important;
+        margin-bottom: 5px;
     }
 }
