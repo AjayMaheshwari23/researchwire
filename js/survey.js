@@ -1,5 +1,5 @@
 
-
+// Chart.defaults.color = '#00' ;
 const data = {
     labels: [
       'Hybrid With Flexibility',
@@ -24,6 +24,16 @@ let surveyChart = new Chart("surveyChart", {
   type: 'polarArea',
   data: data,
 
+  options: {
+    plugins: {
+        legend: {
+            display: true,
+            labels: {
+                color: 'rgb(0,0,0)'
+            }
+        }
+    }
+}
 })
 
 
@@ -53,5 +63,14 @@ let surveyChart2 = new Chart("surveyChart2", {
 
   type: 'polarArea',
   data: data2,
-
+  options: {
+    plugins: {
+        legend: {
+            display: true,
+            labels: {
+                color: 'rgb(0,0,0)'
+            }
+        }
+    }
+}
 })

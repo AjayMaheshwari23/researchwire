@@ -13,7 +13,7 @@
 
     // NEWS IMAGE RESIZE
     function NewsImageResize(){
-      $(".navbar").scrollspy({ offset: -76 });
+      // $(".navbar").scrollspy({ offset: -76 });  I commented this ONE 
       
       var LargeImage = $('.large-news-image').height();
 

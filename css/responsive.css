@@ -17,6 +17,10 @@
     box-shadow: 2px 2px 5px #cdced1;
 }
 
+.carousel-control-people{
+margin-bottom: 24px;
+}
+
 /* mobile potrait 375 px to 667px mobile minipotrait 375px to 504px */
 
 @media screen and (min-width: 375px) and (max-width: 667px) {
@@ -25,6 +29,48 @@
         height: 500px;
     }
     
+    /* People carousel intro page */
+    .carousel-control-people{
+        margin-bottom: -30px;
+        }
+
+
+/* @me */
+.googlex{
+  width: 63vw;
+  display: block;
+}
+
+.blog-slider{
+    height: 20vh!important;
+}
+
+.blog-slider__text{
+
+    font-size: 10px;
+}
+.blog-slider__img{
+    height: 33vh!important;
+    width: 60vw!important;
+}
+
+.blog-slider__button{
+    width: 50vw!important;
+    height: 6vh!important;
+}
+
+
+
+embed{
+    width:40vw;
+}
+
+
+.btn-group a{
+    font-size: 12px!important;
+    width: 35vw!important;
+}
+
     .row > .mail {
         order: 3;
         width: 100%;
