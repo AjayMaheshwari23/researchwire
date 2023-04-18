@@ -10,4 +10,16 @@ var swiper = new Swiper('.blog-slider', {
       el: '.blog-slider__pagination',
       clickable: true,
     }
+
   });
+
+
+function nextfun() {
+  swiper.slideNext();
+  
+}
+
+function prevfun() {
+  swiper.slidePrev();
+  
+}

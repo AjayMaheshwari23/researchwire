@@ -23,10 +23,11 @@
   }
   .card.card-has-bg {
     transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
-    background-size: 120%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
   }
+  
   .card.card-has-bg:before {
     content: "";
     position: absolute;
@@ -78,3 +79,60 @@
     background: #234f6d;
     background: linear-gradient(0deg, rgba(35, 79, 109, 0.3785889356) 0%, #455f71 100%);
   }
+
+
+  
+
+.click-col1
+{
+  background-image: url('../images/adobe/auto5g.png')!important;
+  /* width: max-content; */
+  height: 100%;
+}
+
+.click-col1:hover{
+  opacity: 80%;
+  content: "Hello";
+  background-image: url('/images/txt/5gtxt.png')!important;
+
+}
+
+
+
+.click-col2
+{
+  background-image: url('../images/sectors/pharma.png')!important;
+}
+
+.click-col2:hover{
+  opacity: 80%;
+  content: "Hello";
+  background-image: url('/images/txt/2.png')!important;
+}
+
+
+
+
+.click-col3
+{
+  background-image: url('../images/adobe/green.png')!important;
+}
+.click-col3:hover{
+  opacity: 80%;
+  content: "Hello";
+  background-image: url('/images/txt/3.png')!important;
+
+}
+
+
+.click-col4
+{
+  background-image: url('../images/sectors/altprot.png')!important;
+}
+
+.click-col4:hover{
+  opacity: 80%;
+  content: "Hello";
+  background-image: url('/images/txt/alt_txt.png')!important;
+
+}

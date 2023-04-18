@@ -1,7 +1,30 @@
+// Font size
+Chart.defaults.font.size = 14;
+var w = window.innerWidth;
+if (w >= 359 && w <= 667) {
+    // console.log("addme.js line 5");
+    Chart.defaults.font.size = 6;
+    var r = document.querySelector(':root');
+    r.style.setProperty('--h22-font-size', '3rem');
+    // function myFunction_get() {
+    //     alert("The value of --blue is: " + rs.getPropertyValue('--blue'));
+        
+    // }
+    
+    // var rs = getComputedStyle(r);
+    // Create a function for setting a variable value
+    // function myFunction_set() {
+        // Set the value of variable --blue to another value (in this case "lightblue")
+    // }
+}
+
+
+
+
 //  Data Stuff
 
 var names = `SAMSUNG ELEC. CO., LTD.
-INTERNATIONAL BUSINESS MACHINES CO.
+IBM CORPORATION
 LG CO.
 TOYOTA JIDOSHA K.K.
 CANON K.K.
@@ -59,18 +82,18 @@ const splitter = (str) => {
     var toberet = [];
     var temp = ""; var ok = false;
     for (var i = 0; i < str.length; i++) {
-      if (str[i] == `\n`) {
-        toberet.push(temp)
-        temp = "";
-      }
-      else {
-        temp += str[i];
-      }
+        if (str[i] == `\n`) {
+            toberet.push(temp)
+            temp = "";
+        }
+        else {
+            temp += str[i];
+        }
     }
     toberet.push(temp)
     return toberet;
 
-  }
+}
 
 
 const datavaluesO = splitter(cnts)
@@ -79,8 +102,7 @@ const datalabelsO = splitter(names)
 let datavalues = []
 let datalabels = []
 
-for(i=0;i<12;i++)
-{
+for (i = 0; i < 12; i++) {
     datavalues.push(datavaluesO[i]);
     datalabels.push(datalabelsO[i]);
 }
@@ -105,19 +127,20 @@ const chartthis = new Chart(document.getElementById("line-chart"), {
                 anchor: 'end',
                 align: 'top',
                 formatter: Math.round,
-                font: {
-                    weight: 'bold',
-                    size: 16
-                }
+                // font: {
+                //     weight: 'bold',
+                //     size: 14
+                // }
             }
         }
+
     }
 });
 
 
 function removedata() {
     let sz = datavalues.length;
-    if (sz <= 1) { return; }
+    if (sz <= 5) { return; }
     console.log(datavalues);
     console.log(datavaluesO);
     datavalues.pop();

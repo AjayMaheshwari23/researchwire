@@ -1,5 +1,5 @@
 // For active in navbar
-document.getElementById('upnavbar').children[0].classList.add("active");
+// document.getElementById('upnavbar').children[0].classList.add("active");
 
 // By default only intro active
 document.getElementById("introductionmain").style.display = "unset";
@@ -125,5 +125,32 @@ document.getElementById('rad3').onclick = function () {
     document.getElementById('accordionFlushExample2').style.display = "none";
     document.getElementById('accordionFlushExample3').style.display = "flow-root";
 }
+
+
+
+
+
+//  META links
+
+document.getElementById("meta1").onclick = function () {
+    location.href = 'https://www.linkedin.com/pulse/understanding-metaverse-quick-guide-';
+}
+document.getElementById("meta2").onclick = function () {
+    location.href = 'https://www.linkedin.com/pulse/understanding-metaverse-quick-guide-';
+}
+document.getElementById("meta3").onclick = function () {
+    location.href = 'https://www.linkedin.com/pulse/understanding-metaverse-quick-guide-';
+}
+document.getElementById("meta4").onclick = function () {
+    location.href = 'https://www.linkedin.com/pulse/understanding-metaverse-quick-guide-';
+}
+document.getElementById("meta5").onclick = function () {
+    location.href = 'https://www.linkedin.com/pulse/understanding-metaverse-quick-guide-';
+}
+
+
+
+
+// navN = document.getElementById("navbarNav")
 
 

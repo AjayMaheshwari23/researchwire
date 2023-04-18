@@ -18,7 +18,8 @@ MonsterArt Font Overall
   --grey-color:                   #fcfeff;
   --text-secondary-white-color:   rgba(255, 255, 255, 0.98);
   --title-color:                  #565758;
-  --p-color:                      #717275;
+  --p-color:                      #1f1f20;
+  --p-color2:                      #737379;
 
   /* --body-font-family:           'Noto Sans JP', sans-serif; */
   --body-font-family:           'Montserrat', sans-serif;
@@ -45,7 +46,13 @@ body,
 html {
   height: 100%;
 }
-
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 body {
     background: var(--white-color);
     font-family: var(--body-font-family);    
@@ -257,7 +264,7 @@ strong {
 }
 
 .navbar-nav .nav-link {
-  color: var(--p-color);
+  color: var(--p-color2);
   font-size: 18px;
   font-weight: var(--font-weight-bold);
   position: relative;
@@ -280,6 +287,7 @@ strong {
 
 .nav-link:focus {
   color: var(--p-color);
+  text-align: justify;
 }
 
 .navbar-toggler {
@@ -744,14 +752,7 @@ strong {
     margin-bottom: 20px;
   }
 
-  #maindiffrot
-  {
-    display: block;
-    transform: rotate(0deg);
-    /* flex-direction: row; */
-    /* background-color: #0c86ff; */
-  
-  }
+
 
 
 }
@@ -891,7 +892,7 @@ border-bottom: 2px solid #95ffcf;
 
 
 
-  #smartcontractimg{
+  .smartcontractimg{
     width: 80vw;
     margin-left: 10vw;
     /* height:80vh; */
@@ -974,62 +975,15 @@ select:hover{
 
 
 
-
-.click-col1
-{
-  background-image: url('../images/adobe/auto5g.png')!important;
-  width: max-content;
-}
-
-.click-col1:hover{
-  opacity: 80%;
-  content: "Hello";
-  background-image: url('/images/txt/5gtxt.png')!important;
-
-}
-
-
-
-.click-col2
-{
-  background-image: url('../images/adobe/medicine.png')!important;
-}
-
-.click-col2:hover{
-  opacity: 80%;
-  content: "Hello";
-  background-image: url('/images/txt/2.png')!important;
-}
-
-
-
-
-.click-col3
-{
-  background-image: url('../images/adobe/green.png')!important;
-}
-.click-col3:hover{
-  opacity: 80%;
-  content: "Hello";
-  background-image: url('/images/txt/3.png')!important;
-
-}
-
-
-.click-col4
-{
-  background-image: url('../images/sectors/altprot.png')!important;
-}
-
-.click-col4:hover{
-  opacity: 80%;
-  content: "Hello";
-  background-image: url('/images/txt/alt_txt.png')!important;
-
-}
-
 /* Saari heading's ka font same i.e 50px */
 
 .sectionheading{
   font-size: var(--h22-font-size);
+}
+
+
+/* Accordion FIX */
+.accordion-button{
+/* width: 99%!important; */
+margin-left: 0px!important;
 }
